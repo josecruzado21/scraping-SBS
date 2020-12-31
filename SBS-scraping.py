@@ -3,9 +3,9 @@ import requests
 import pandas as pd
 from datetime import datetime,timedelta
 from operator import itemgetter
-vc=pd.read_csv('VC-AFPs.csv',sep=",",float_precision='round_trip')
+vc=pd.read_csv('./Data/VC-AFPs.csv',sep=",",float_precision='round_trip')
 pd.options.display.float_format = '{:,.16f}'.format
-columns=vc.columns
+#columns=vc.columns
 vc['FECHA']=pd.to_datetime(vc['FECHA'],format="%Y-%m-%d")
 url="https://www.sbs.gob.pe/app/spp/variablesSPP_net/PagSS/variables_spp.aspx"
 html=requests.get(url)
@@ -54,4 +54,4 @@ df_merge=pd.DataFrame(list_merge,columns=columnas)
 df_merge['FECHA']=pd.to_datetime(df_merge['FECHA'])
 final_df=vc.merge(df_merge,on=columnas,how='outer')
 final_df.drop_duplicates(subset ="FECHA",keep = 'last', inplace = True) 
-final_df.to_csv('VC-AFPs.csv',index=False)
+final_df.to_csv('./Data/VC-AFPs.csv',index=False)
