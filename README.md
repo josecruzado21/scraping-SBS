@@ -1,4 +1,4 @@
-# Scraping SBS Website
+# Scraping SBS (Superintendencia de Banca, Seguros y AFPs) Website
 
 ## Overview
 
