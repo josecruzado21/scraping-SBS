@@ -14,21 +14,25 @@ The aim of the script is to automate the daily information retrieval from the SB
 * **AUM**: Total Asset Under Management in Peruvian Soles (PEN) for all the Subfunds of all the Peruvian Private Pension Funds.
 * **Number of Shares**: Total number of shares of each AFP Subfund (this number can increase or decrease based on contributions or redemptions)
 
-# YTD Returns (Assuming a $ 100 investment the first day of the current year)
+## YTD Returns (Assuming a $ 100 investment the first day of the current year)
 
-# Fondo 0 Returns
+### Fondo 0 Returns
 
 ![](returns_f0.png)
 
-# Fondo 1 Returns
+### Fondo 1 Returns
 
 ![](returns_f1.png)
 
-# Fondo 2 Returns
+### Fondo 2 Returns
 
 ![](returns_f2.png)
 
-# Fondo 3 Returns
+### Fondo 3 Returns
 
 ![](returns_f3.png)
 
+## Steps to automate the information retrieval
+* Clone this repository
+* Run from terminal the SBS-scraping.py script
+* It is possible to schedule execution of the script with Windows Task Scheduler
