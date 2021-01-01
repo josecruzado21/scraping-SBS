@@ -18,19 +18,19 @@ The aim of the script is to automate the daily information retrieval from the SB
 
 ### Fondo 0 Returns
 
-![](returns_f0.png)
+![](doc-source-images/returns_f0.png)
 
 ### Fondo 1 Returns
 
-![](returns_f1.png)
+![](doc-source-images/returns_f1.png)
 
 ### Fondo 2 Returns
 
-![](returns_f2.png)
+![](doc-source-images/returns_f2.png)
 
 ### Fondo 3 Returns
 
-![](returns_f3.png)
+![](doc-source-images/returns_f3.png)
 
 ## Steps to automate the information retrieval
 * Clone this repository.
