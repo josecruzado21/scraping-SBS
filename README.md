@@ -13,5 +13,9 @@ The aim of the script is to automate the daily information retrieval from the SB
 * **AUM**: Total Asset Under Management in Peruvian Soles (PEN) for all the Subfunds of all the Peruvian Private Pension Funds.
 * **Number of Shares**: Total number of shares of each AFP Subfund (this number can increase or decrease based on contributions or redemptions)
 
-# YTD Returns
+# YTD Returns (Assuming a $ 100 investment the first day of the current year)
+
+# Fondo 0 Returns
+
+![](returns_f0.png)
 
