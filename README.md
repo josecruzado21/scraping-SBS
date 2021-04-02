@@ -38,8 +38,8 @@ The aim of the script is to automate the daily information retrieval from the SB
 
 ```
 $ git clone https://github.com/josecruzado21/scraping-SBS
-$ python scraping-SBS
-
+$ cd Script
+$ python SBS-scraping.py
 ```
 
 ### Final Remarks
