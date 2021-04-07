@@ -33,7 +33,16 @@ The aim of the script is to automate the daily information retrieval from the SB
 ![](doc-source-images/returns_f3.png)
 
 ## Steps to automate the information retrieval
-* Clone this repository.
-* Run from terminal the SBS-scraping.py script.
+
+### Instalation guide
+
+```
+$ git clone https://github.com/josecruzado21/scraping-SBS
+$ cd Script
+$ python SBS-scraping.py
+```
+
+### Final Remarks
+
 * Once the script is executed, the csv file will be updated to the most recent date. It can now be imported to any data analysis software (Power BI, Tableau, Excel). The README.md file will also be updated with the most recent charts. 
 * It is possible to schedule execution of the script from Windows Task Scheduler.
